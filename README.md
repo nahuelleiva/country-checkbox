@@ -1,4 +1,4 @@
-# Examen de Ingreso: Full Stack Senior React
+# Examen de Ingreso React: Full Stack Senior React - 0workers
 
 Test corto de habilidades de React
 
