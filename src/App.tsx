@@ -27,17 +27,19 @@ function App() {
 
   return (
     <>
-      <label>
-        <input 
-          type="checkbox" 
-          checked={areAllCountriesSelected} 
-          onChange={() => {
-            setSelectedCountries(areAllCountriesSelected ? [] : countries);
-          }}
-        />
-        Select All
-      </label>
       <ul>
+        <li key={'selectAll'}>
+          <label>
+            <input 
+              type="checkbox" 
+              checked={areAllCountriesSelected} 
+              onChange={() => {
+                setSelectedCountries(areAllCountriesSelected ? [] : countries);
+              }}
+            />
+            Select All
+          </label>
+        </li>
         {
           countries.map((country) => {
             const isSelected = selectedCountries.find(({id})=> country.id === id) !== undefined;
