@@ -21,4 +21,4 @@ Se debe utilizar TypeScript y el template de create-react-app (o Vite de ser pos
 La lógica de la app se encuentra en el archivo App.tsx
 
 ## Herramientas
-React + Vite, desplegado en Vercel (-- acá iría la página de Vercel)
+Typescript, React + Vite, desplegado en Vercel
