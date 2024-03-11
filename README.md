@@ -1,30 +1,24 @@
-# React + TypeScript + Vite
+# Examen de Ingreso: Full Stack Senior React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Test corto de habilidades de React
 
-Currently, two official plugins are available:
+## Checkbox de países
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+En este ejercicio se debe mostrar una lista de checkboxes.
 
-## Expanding the ESLint configuration
+Requisitos:
+- Se deben poder seleccionar individualmente los países
+- Se deben seleccionar y deseleccionar todos cuando se presiona el checkbox “Select
+All”
+- Si esta marcado “Select All”, y por ende todos los otros checkbox también, y se
+deselecciona uno de los países, “Select All” debe ser deseleccionado.
+- Si se seleccionan todos los países y no “Select All”, “Select All” debe ser
+seleccionado automáticamente.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Se debe utilizar TypeScript y el template de create-react-app (o Vite de ser posible). El código debe estar subido a un repositorio público de Github.
 
-- Configure the top-level `parserOptions` property like this:
+## Lógica de la app
+La lógica de la app se encuentra en el archivo App.tsx
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Herramientas
+React + Vite, desplegado en Vercel (-- acá iría la página de Vercel)
