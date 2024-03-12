@@ -17,7 +17,7 @@ const countries = [
   },
   {
     id: 3,
-    name: 'India'
+    name: 'France'
   }
 ] satisfies Country[];
 
@@ -29,8 +29,9 @@ function App() {
     <>
       <ul>
         <li key={'selectAll'}>
-          <label>
+          <label htmlFor='selectAll'>
             <input 
+              id='selectAll'
               type="checkbox" 
               checked={areAllCountriesSelected} 
               onChange={() => {
@@ -46,8 +47,9 @@ function App() {
 
             return (
               <li key={country.id}>
-                <label>
+                <label htmlFor={country.name}>
                   <input 
+                    id={country.name}
                     type="checkbox" 
                     checked={isSelected}
                     onChange={() => {
