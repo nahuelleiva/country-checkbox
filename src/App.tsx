@@ -37,8 +37,7 @@ function App() {
               onChange={() => {
                 setSelectedCountries(areAllCountriesSelected ? [] : countries);
               }}
-            />
-            Select All
+            /> Select All
           </label>
         </li>
         {
