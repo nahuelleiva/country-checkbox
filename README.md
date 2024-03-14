@@ -18,4 +18,4 @@ seleccionado automáticamente.
 Se debe utilizar TypeScript y el template de create-react-app (o Vite de ser posible). El código debe estar subido a un repositorio público de Github.
 
 ## Herramientas
-Typescript, React + Vite, desplegado en Vercel
+Typescript, React + Vite, ~~desplegado en Vercel~~ (se quitó el deployment)
